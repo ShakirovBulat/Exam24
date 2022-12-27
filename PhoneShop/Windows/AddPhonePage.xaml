@@ -1,0 +1,22 @@
+﻿<Window x:Class="PhoneShop.Windows.AddPhonePage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PhoneShop.Windows"
+        mc:Ignorable="d"
+        Title="AddPhonePage" Height="450" Width="800">
+    <Grid>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="55,217,0,0" VerticalAlignment="Top" Height="36" Width="99" Click="Button_Click"/>
+        <TextBox x:Name="NamePhoneTB" HorizontalAlignment="Left" Margin="44,52,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TypeMaterialsTB" HorizontalAlignment="Left" Margin="44,90,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TypePhoneTB" HorizontalAlignment="Left" Margin="44,127,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TypeErrorTB" HorizontalAlignment="Left" Margin="44,163,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Добавление телефона" HorizontalAlignment="Left" Margin="266,0,0,0" VerticalAlignment="Top" Width="291" FontSize="24"/>
+        <Label Content="Название телефона" HorizontalAlignment="Left" Margin="44,21,0,0" VerticalAlignment="Top"/>
+        <Label Content="Уникальный номер материала" HorizontalAlignment="Left" Margin="45,64,0,0" VerticalAlignment="Top"/>
+        <Label Content="Уникальный номер Типа телефона" HorizontalAlignment="Left" Margin="44,99,0,0" VerticalAlignment="Top"/>
+        <Label Content="Уникальный номер ошибки" HorizontalAlignment="Left" Margin="44,137,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

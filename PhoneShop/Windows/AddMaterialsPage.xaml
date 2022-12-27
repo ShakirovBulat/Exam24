@@ -1,0 +1,17 @@
+﻿<Window x:Class="PhoneShop.Windows.AddMaterialsPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PhoneShop.Windows"
+        mc:Ignorable="d"
+        Title="AddMaterialsPage" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="MatTB" HorizontalAlignment="Left" Margin="83,98,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="KolTB" HorizontalAlignment="Left" Margin="83,141,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Название" HorizontalAlignment="Left" Margin="83,67,0,0" VerticalAlignment="Top"/>
+        <Label Content="Количество" HorizontalAlignment="Left" Margin="83,116,0,0" VerticalAlignment="Top"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="114,183,0,0" VerticalAlignment="Top" Height="34" Width="68" Click="Button_Click"/>
+
+    </Grid>
+</Window>

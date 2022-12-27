@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9b3ea4c59e5740aebbb36a0e27bbaa31" Name="Diagram1">
+        <EntityTypeShape EntityType="web24Model.Clients" Width="1.5" PointX="5.25" PointY="1.25" />
+        <EntityTypeShape EntityType="web24Model.MaterialPhone" Width="1.5" PointX="0.75" PointY="1.5" />
+        <EntityTypeShape EntityType="web24Model.Phones" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="web24Model.Role" Width="1.5" PointX="0.75" PointY="10.5" />
+        <EntityTypeShape EntityType="web24Model.sysdiagrams" Width="1.5" PointX="2.75" PointY="4.75" />
+        <EntityTypeShape EntityType="web24Model.TypeErrors" Width="1.5" PointX="0.75" PointY="7" />
+        <EntityTypeShape EntityType="web24Model.TypePhone" Width="1.5" PointX="0.75" PointY="4.625" />
+        <EntityTypeShape EntityType="web24Model.User" Width="1.5" PointX="3" PointY="10.25" />
+        <AssociationConnector Association="web24Model.FK_Clients_Phones" />
+        <AssociationConnector Association="web24Model.FK_Clients_User" />
+        <AssociationConnector Association="web24Model.FK_Phones_MaterialPhone" />
+        <AssociationConnector Association="web24Model.FK_Phones_TypeErrors" />
+        <AssociationConnector Association="web24Model.FK_Phones_TypePhone" />
+        <AssociationConnector Association="web24Model.FK_User_Role" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
